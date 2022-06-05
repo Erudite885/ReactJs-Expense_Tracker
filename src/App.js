@@ -1,4 +1,5 @@
 import React from 'react'
+import ExpenseItem from './components/ExpenseItem'
 
 const App = () => {
   return (
@@ -6,6 +7,7 @@ const App = () => {
         <h2>
             Dynamic Form Elements
         </h2>
+        <ExpenseItem />
     </div>
   )
 }
