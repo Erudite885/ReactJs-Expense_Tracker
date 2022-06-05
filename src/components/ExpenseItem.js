@@ -1,5 +1,6 @@
 import React from 'react'
 
+import ExpenseDate from './ExpenseDate'
 import './ExpenseItem.css'
 
 const ExpenseItem = (props) => {
@@ -8,17 +9,11 @@ const ExpenseItem = (props) => {
 // const expenseTitle = 'Car Insurance';
 // const expenseAmount = 255.99;
 
-const month = props.date.toLocaleString('en-US', {month: 'long'}); 
-const day = props.date.toLocaleString('en-US', { day: '2-digit' });
-const year = props.date.getFullYear();
+
 
   return (
     <div className='expense-item'>
-        <div>
-            <div>Month: {month}</div>
-            <div>Year: {year}</div>
-            <div>Day: {day} </div>
-        </div>
+        <ExpenseDate date={props.date} />
         {/* <div> Date: {props.date.toISOString()} </div> */}
         <div className='expense-item__description'>
             <h2> Title: {props.title} </h2>
