@@ -41,10 +41,15 @@ const App = () => {
     
     ];
 
+    const addExpenseHandler = (expense) => {
+        console.log('in App.js')
+        console.log(expense)
+    }
+
   return (
     <div>
         <h2> Dynamic Form Elements </h2>
-        <NewExpense />
+        <NewExpense onAddExpense={addExpenseHandler} />
         <Expenses items={expense} />
     </div>
   )
