@@ -1,5 +1,6 @@
 import React from 'react'
 
+import NewExpense from './components/NewExpense/NewExpense'
 import Expenses from './components/Expenses/Expenses'
 
 
@@ -43,6 +44,7 @@ const App = () => {
   return (
     <div>
         <h2> Dynamic Form Elements </h2>
+        <NewExpense />
         <Expenses items={expense} />
     </div>
   )
