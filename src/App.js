@@ -1,5 +1,7 @@
 import React from 'react'
-import ExpenseItem from './components/ExpenseItem'
+
+import Expenses from './components/Expenses/Expenses'
+
 
 const App = () => {
 
@@ -27,19 +29,21 @@ const App = () => {
             title: 'Motor Insurance',
             amount: 265.99,
             date: new Date(2021, 3, 22)
+        },
+        {
+            id: 5,
+            title: 'Final Insurance',
+            amount: 295.99,
+            date: new Date(2021, 1, 15)
         }
+
     
     ];
 
   return (
     <div>
-        <h2>
-            Dynamic Form Elements
-        </h2>
-        <ExpenseItem title={expense[0].title} amount={expense[0].amount} date={expense[0].date} />
-        <ExpenseItem title={expense[1].title} amount={expense[1].amount} date={expense[1].date} />
-        <ExpenseItem title={expense[2].title} amount={expense[2].amount} date={expense[2].date} />
-        <ExpenseItem title={expense[3].title} amount={expense[3].amount} date={expense[3].date} />
+        <h2> Dynamic Form Elements </h2>
+        <Expenses items={expense} />
     </div>
   )
 }
