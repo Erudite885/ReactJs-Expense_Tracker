@@ -17,6 +17,7 @@
     border-radius: 12px;
     background-color: #40005d;
     color: #fff;
+    margin-right: 1rem;
 }
 
 .new-expense button:hover,
