@@ -1,4 +1,4 @@
-### Expense Tracker
+# Expense Tracker with ReactJs
 
 This project is a simple Expense Tracker with ReactJs.
 
