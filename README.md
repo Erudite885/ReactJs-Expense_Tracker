@@ -1,3 +1,19 @@
+### Expense Tracker
+
+This project is a simple Expense Tracker with ReactJs.
+
+The project covers ReactJs Basic sections such as:
+
+Working with Components\
+Building Custom Components,\
+Basic CSS Styling in ReactJs,\
+Outputting Dynamic Data,\
+Working with Expressions,\
+Working with Events,\
+Rendering Lists and Conditional Content,\
+
+and more...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
