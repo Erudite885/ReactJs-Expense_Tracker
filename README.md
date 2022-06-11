@@ -14,11 +14,11 @@ Rendering Lists and Conditional Content,
 
 and more...!
 
-The final outcome is below
-[dynamicForm1](https://user-images.githubusercontent.com/79880772/173167001-763b295f-9d5c-4a43-94e6-798b70e5f5ec.jpg)
+The final outcome is below\
+[dynamicForm1](https://user-images.githubusercontent.com/79880772/173167001-763b295f-9d5c-4a43-94e6-798b70e5f5ec.jpg)\
 
-Showing form after the add new expense button is clicked
-![dynamicForm2](https://user-images.githubusercontent.com/79880772/173167033-4469eac1-bb85-4bd6-b9ac-4e5e1cec1277.jpg)
+Showing form after the add new expense button is clicked\
+![dynamicForm2](https://user-images.githubusercontent.com/79880772/173167033-4469eac1-bb85-4bd6-b9ac-4e5e1cec1277.jpg)\
 
 # Getting Started with Create React App
 
